@@ -1,0 +1,13 @@
+<!-- <input type="file" (change)="onFileChange($event)" />
+<button (click)="convertToGif()">Convert to GIF</button>
+<img *ngIf="imageUrl" [src]="imageUrl" alt="Uploaded Image" /> -->
+
+
+
+<!-- <img [@rotatedState]='state' (@rotatedState.done)="rotate()"
+  src="https://xlb0w6lxod.execute-api.us-west-2.amazonaws.com/api/?p=1&url=https%3A%2F%2Fwww.mugbargain.com%2Fapi%2Fs%2Fconfigurator%2Fdesign%2F26a73233-d4b9-4320-8f34-023dfe0b96fd%2Fitem_preview%3Fproduct_id%3D653262%26p%3D1%26attribute_code%3Dmug_color%26attribute_value%3D60209%26view%3DA4%26du%3D72"> -->
+
+
+  <div [@rotate] class="rotate-container">
+    <img src="https://xlb0w6lxod.execute-api.us-west-2.amazonaws.com/api/?p=1&url=https%3A%2F%2Fwww.mugbargain.com%2Fapi%2Fs%2Fconfigurator%2Fdesign%2F26a73233-d4b9-4320-8f34-023dfe0b96fd%2Fitem_preview%3Fproduct_id%3D653262%26p%3D1%26attribute_code%3Dmug_color%26attribute_value%3D60209%26view%3DA4%26du%3D72" alt="Rotating Image" />
+  </div>
